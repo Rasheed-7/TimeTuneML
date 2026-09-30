@@ -1,0 +1,5 @@
+method,seed,budget_seconds,best_f1,total_time_seconds,num_trials,best_parameters,best_utility,average_trial_time
+Default RF,42,30.0,0.9655172413793104,0.4680144999999811,1,bootstrap=True;ccp_alpha=0.0;class_weight=None;criterion=gini;max_depth=None;max_features=sqrt;max_leaf_nodes=None;max_samples=None;min_impurity_decrease=0.0;min_samples_leaf=1;min_samples_split=2;min_weight_fraction_leaf=0.0;monotonic_cst=None;n_estimators=200;n_jobs=-1;oob_score=False;random_state=42;verbose=0;warm_start=False,,
+Random Search,42,30.0,0.9655172413793104,30.511872799999992,60,n_estimators=90;max_depth=24;min_samples_split=14;min_samples_leaf=5;max_features=0.3,,
+Bayesian Optimization,42,30.0,0.9655172413793104,30.046995700000025,55,n_estimators=120;max_depth=4;min_samples_split=18;min_samples_leaf=7;max_features=0.5,,
+Time-Aware Bayesian,42,30.0,0.9655172413793104,30.649582799999962,52,n_estimators=120;max_depth=4;min_samples_split=18;min_samples_leaf=7;max_features=0.5,21.33275048959892,0.5795957749999967
