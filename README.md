@@ -373,7 +373,7 @@ streamlit run src/timetuneml/app/streamlit_app.py
  ### 1\. Clone the repository
 
 ```
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Rasheed-7/TimeTuneML.git
 cd TimeTuneML
 ```
 
